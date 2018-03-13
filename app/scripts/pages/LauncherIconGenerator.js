@@ -23,7 +23,8 @@ const ICON_SIZE = { w: 48, h: 48 };
 const TARGET_RECTS_BY_SHAPE = {
   none: { x:  3, y:  3, w:  42, h:  42 },
   circle: { x:  2, y:  2, w:  44, h:  44 },
-  square: { x:  5, y:  5, w:  38, h:  38 },
+  // square: { x:  5, y:  5, w:  38, h:  38 },
+  square: { x:  3, y:  3, w:  42, h:  42 },
   vrect: { x:  8, y:  2, w:  32, h:  44 },
   hrect: { x:  2, y:  8, w:  44, h:  32 },
 };
@@ -32,7 +33,8 @@ const GRID_OVERLAY_SVG =
     `<svg width="48" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
         <g fill="none" fill-rule="evenodd">
             <rect vector-effect="non-scaling-stroke" x="8" y="2" width="32" height="44" rx="3"/>
-            <rect vector-effect="non-scaling-stroke" x="5" y="5" width="38" height="38" rx="3"/>
+            <!--<rect vector-effect="non-scaling-stroke" x="5" y="5" width="38" height="38" rx="3"/>-->
+            <rect vector-effect="non-scaling-stroke" x="3" y="3" width="42" height="42" rx="3"/>
             <rect vector-effect="non-scaling-stroke" x="2" y="8" width="44" height="32" rx="3"/>
             <circle vector-effect="non-scaling-stroke" cx="24" cy="24" r="10"/>
             <circle vector-effect="non-scaling-stroke" cx="24" cy="24" r="22"/>
